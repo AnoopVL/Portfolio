@@ -1,0 +1,4 @@
+.hero--section-title--color {
+  transition: color 0.5s ease-in-out;
+  color: #5e3aef;
+}

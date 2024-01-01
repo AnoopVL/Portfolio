@@ -100,6 +100,7 @@ function Navbar() {
         duration={500}
         to="Contact"
         className="btn btn-outline-primary"
+        // color="#38b7fe"
       >
         Contact Me
       </Link>

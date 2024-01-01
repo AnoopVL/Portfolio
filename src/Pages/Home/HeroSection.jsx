@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "./HeroSection.css";
 
 const TextChanger = () => {
   const [displayText, setDisplayText] = useState("Web");
@@ -10,7 +11,7 @@ const TextChanger = () => {
       setDisplayText((prevText) =>
         prevText === alternateText ? "Web" : alternateText
       );
-    }, 1500);
+    }, 2000);
 
     // Cleanup the interval when the component unmounts
     return () => clearInterval(intervalId);
@@ -33,8 +34,9 @@ export default function HeroSection() {
           {/* Render the TextChanger component here */}
           <TextChanger />
           <p className="hero--section-description">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            <br /> Dolorum, quas. Amet soluta assumenda cum?
+            Passionate creator specializing in dApps and websites. I blend
+            innovative design with functional development, crafting seamless
+            digital experiences. Join me on this exciting journey! 💻🌐
           </p>
         </div>
         <button className="btn btn-primary">Get In Touch</button>
