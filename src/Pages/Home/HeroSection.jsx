@@ -25,6 +25,19 @@ const TextChanger = () => {
   );
 };
 
+const handleDownloadResume = () => {
+  // Replace 'your_resume.pdf' with the actual path to your PDF resume
+  const resumePath = "./img/ResumeAVL_241223.pdf";
+
+  // Create a link element
+  const link = document.createElement("a");
+  link.href = resumePath;
+  link.download = "Anoop_Resume.pdf"; // Set the desired file name
+
+  // Trigger a click on the link to start the download
+  link.click();
+};
+
 export default function HeroSection() {
   return (
     <section id="heroSection" className="hero--section">
@@ -36,10 +49,13 @@ export default function HeroSection() {
           <p className="hero--section-description">
             Passionate creator specializing in dApps and websites. I blend
             innovative design with functional development, crafting seamless
-            digital experiences. Join me on this exciting journey! 💻🌐
+            digital experiences. Join me on this exciting journey!💻🌐
           </p>
         </div>
-        <button className="btn btn-primary">Get In Touch</button>
+        {/* <button className="btn btn-primary">Get In Touch</button> */}
+        <button className="btn btn-primary" onClick={handleDownloadResume}>
+          Download Resume
+        </button>
       </div>
       <div className="hero--section--img">
         <img
