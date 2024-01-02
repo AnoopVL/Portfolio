@@ -4,25 +4,26 @@
       "id": "1",
       "src": "./img/product-chain-1.png",
       "title": "Front-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "Skilled in React.js, HTML, CSS, and Next.js, crafting seamless and visually engaging frontend experiences."
     },
     {
       "id": "2",
       "src": "./img/tag-1.png",
       "title": "Back-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "Backend expertise in Node.js, Express.js, and MongoDB, creating robust and scalable server-side solutions with precision."
     },
     {
       "id": "3",
-      "src": "./img/feather-pen-2.png",
-      "title": "UI & UX Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "src": "./img/ethLogo.png",
+
+      "title": "Block-chain",
+      "description": "Proficient in Solidity, NFTs, Hardhat, OpenZeppelin, IPFS, ERC-721, ensuring secure and decentralized blockchain solutions."
     },
     {
       "id": "4",
       "src": "./img/feather-pen-1.png",
-      "title": "Webflow Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "Problem Solving",
+      "description": "Java and C++ problem-solving expert, adept at crafting efficient and elegant solutions to complex challenges."
     }
   ],
   "portfolio": [
