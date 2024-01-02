@@ -1,0 +1,26 @@
+/* Add this in your CSS file */
+.btn-github {
+  background-color: #5e3aef; /* Change this to the desired color */
+  color: white; /* Change this to the desired text color */
+  /* Add any additional styles as needed */
+}
+
+/* If you want to change the color on hover, you can add the following */
+.btn-github:hover {
+  background-color: white; /* Change this to the desired hover color */
+}
+
+.portfolio--section--card {
+  /* Your existing styles */
+
+  /* Add transition for smooth hover effect */
+  transition: transform 0.3s ease-in-out;
+
+  /* Optional: Add other styles you want for the non-hover state */
+}
+
+.portfolio--section--card:hover {
+  /* Add styles you want for the hover state */
+  transform: scale(1.05); /* You can adjust the scale factor as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow or other styles */
+}

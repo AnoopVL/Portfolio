@@ -29,24 +29,27 @@
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/bvHm1.png",
+      "title": "BlockVault",
+      "description": "BlockVault: Decentralized image upload on blockchain, Solidity for smart contract, React for user-friendly interface, IPFS secure sharing",
+      "link": "View In Github",
+      "githubLink": "https://github.com/AnoopVL/BlockVault.git"
     },
     {
       "id": "2",
-      "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/propay1.png",
+      "title": "Pro-Pay",
+      "description": "Pro-Pay: Trade securely on blockchain testnet, seamless transactions, user-friendly interface for efficient crypto swaps.",
+      "link": "View In Github",
+      "githubLink": "https://github.com/AnoopVL/Propay.git"
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "./img/yolo1.png",
+      "title": "Inventory Management",
+      "description": "React, MongoDB, Node.js, Express.js power seamless inventory management. User-friendly interface for efficient tracking and organization",
+      "link": "View In Github",
+      "githubLink": "https://github.com/AnoopVL/yolo.git"
     }
   ],
   "testimonial": [
