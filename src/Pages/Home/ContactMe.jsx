@@ -5,7 +5,7 @@ export default function ContactMe() {
     const formEle = document.querySelector("form");
     e.preventDefault();
 
-    console.log("Submitted");
+    alert("Submitted !!");
     const formData = new FormData(formEle);
 
     fetch(
