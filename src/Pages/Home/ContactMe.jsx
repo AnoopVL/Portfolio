@@ -1,73 +1,98 @@
+import React from "react";
+
 export default function ContactMe() {
+  function Submit(e) {
+    const formEle = document.querySelector("form");
+    e.preventDefault();
+
+    console.log("Submitted");
+    const formData = new FormData(formEle);
+
+    fetch(
+      "https://script.google.com/macros/s/AKfycbwPpgMmCSgsoOSJisKthTVNNRDZqUOa1-YIbdHK6kUxwIGzI16ZW83tS4VrPgoZcFG1Lw/exec",
+      {
+        method: "POST",
+        body: formData,
+        mode: "no-cors",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    )
+      .then((res) => res.json())
+      .then((data) => console.log(data))
+      .catch((error) => console.log(error));
+  }
+
   return (
     <section id="Contact" className="contact--section">
       <div>
         <p className="sub--title">Get In Touch</p>
         <h2>Contact Me</h2>
         <p className="text-lg">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, odit.
+          Feel free to reach out anytime! I'm available for questions or
+          discussions on anything.
         </p>
       </div>
-      <form className="contact--form--container">
+      <form className="contact--form--container" onSubmit={(e) => Submit(e)}>
         <div className="container">
-          <label htmlFor="first-name" className="contact--label">
+          <label htmlFor="Fname" className="contact--label">
             <span className="text-md">First Name</span>
             <input
               type="text"
               className="contact--input text-md"
-              name="first-name"
-              id="first-name"
+              name="Fname"
+              id="Fname"
               required
             />
           </label>
-          <label htmlFor="last-name" className="contact--label">
+          <label htmlFor="Lname" className="contact--label">
             <span className="text-md">Last Name</span>
             <input
               type="text"
               className="contact--input text-md"
-              name="last-name"
-              id="last-name"
+              name="Lname"
+              id="Lname"
               required
             />
           </label>
-          <label htmlFor="email" className="contact--label">
+          <label htmlFor="Email" className="contact--label">
             <span className="text-md">Email</span>
             <input
-              type="email"
+              type="Email"
               className="contact--input text-md"
-              name="email"
-              id="email"
+              name="Email"
+              id="Email"
               required
             />
           </label>
-          <label htmlFor="phone-number" className="contact--label">
-            <span className="text-md">phone-number</span>
+          <label htmlFor="Pnum" className="contact--label">
+            <span className="text-md">Phone-number</span>
             <input
-              type="number"
+              type="tel"
               className="contact--input text-md"
-              name="phone-number"
-              id="phone-number"
+              name="Pnum"
+              id="Pnum"
               required
             />
           </label>
         </div>
-        <label htmlFor="choode-topic" className="contact--label">
-          <span className="text-md">Choose a topic</span>
-          <select id="choose-topic" className="contact--input text-md">
-            <option>Select One...</option>
-            <option>Item 1</option>
-            <option>Item 2</option>
-            <option>Item 3</option>
-          </select>
-        </label>
-        <label htmlFor="message" className="contact--label">
+
+        <label htmlFor="Message" className="contact--label">
           <span className="text-md">Message</span>
-          <textarea
+          <input
+            type="text"
             className="contact--input text-md"
-            id="message"
-            rows="8"
-            placeholder="Type your message..."
+            name="Message"
+            id="Message"
+            required
           />
+          {/* <textarea
+            className="contact--input text-md"
+            id="Message"
+            rows="8"
+            placeholder="Type your Message..."
+          /> */}
         </label>
         <label htmlFor="checkboc" className="checkbox--label">
           <input type="checkbox" required name="checkbox" id="checkbox" />
