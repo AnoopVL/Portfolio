@@ -56,26 +56,29 @@
     {
       "id": "1",
       "count": "5",
-      "src": "./img/avatar-image.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Dianne Russel",
-      "author_designation": "Starbucks"
+      "src": "./img/ahen.jpg",
+      "description": "Java developer with expertise in building robust applications, leveraging strong problem-solving skills for efficient software solutions.",
+      "compName": "Ahen Pvt.Ltd.",
+      "designation": "Java developer",
+      "duration": "Jan 2024 - Present"
     },
     {
       "id": "2",
       "count": "5",
-      "src": "./img/avatar-image-1.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kristin Watson",
-      "author_designation": "Louis Vuitton"
+      "src": "./img/gdsc.jpg",
+      "description": "Worked as Blockchain lead at GDSC PESMCOE, guiding peers, teaching, and fostering collaboration for impactful tech events.",
+      "compName": "GDSC PESMCOE",
+      "designation": "Blockchain Lead",
+      "duration": "Aug 2023 - Present"
     },
     {
       "id": "3",
       "count": "5",
-      "src": "./img/avatar-image-2.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kathryn Murphy",
-      "author_designation": "McDonald's"
+      "src": "./img/logo.png",
+      "description": "Dropshipping: Navigated e-commerce challenges, managed inventory, and drove sales with strategic marketing and innovation.",
+      "compName": "ViCHAr Enterprises",
+      "designation": "Solopreneur",
+      "duration": "Apr 2019 - May 2020"
     }
   ]
 }

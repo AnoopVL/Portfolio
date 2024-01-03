@@ -22,5 +22,5 @@
 .portfolio--section--card:hover {
   /* Add styles you want for the hover state */
   transform: scale(1.05); /* You can adjust the scale factor as needed */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow or other styles */
+  box-shadow: 0 4px 8px #5e3aef; /* Optional: Add box shadow or other styles */
 }

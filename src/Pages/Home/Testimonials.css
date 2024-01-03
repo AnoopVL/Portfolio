@@ -1,0 +1,9 @@
+.testimonial--section--card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.testimonial--section--card:hover {
+  /* Add styles you want for the hover state */
+  transform: scale(1.05); /* You can adjust the scale factor as needed */
+  box-shadow: 0 4px 8px #5e3aef; /* Optional: Add box shadow or other styles */
+}
