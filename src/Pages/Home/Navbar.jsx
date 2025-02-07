@@ -39,8 +39,7 @@ function Navbar() {
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
-        onClick={toggleNav}
-      >
+        onClick={toggleNav}>
         <span className="nav__hamburger__line"></span>
         <span className="nav__hamburger__line"></span>
         <span className="nav__hamburger__line"></span>
@@ -56,8 +55,7 @@ function Navbar() {
               offset={-70}
               duration={500}
               to="heroSection"
-              className="navbar--content"
-            >
+              className="navbar--content">
               Home
             </Link>
           </li>
@@ -70,8 +68,7 @@ function Navbar() {
               offset={-70}
               duration={500}
               to="MyPortfolio"
-              className="navbar--content"
-            >
+              className="navbar--content">
               Portfolio
             </Link>
           </li>
@@ -84,8 +81,7 @@ function Navbar() {
               offset={-70}
               duration={500}
               to="AboutMe"
-              className="navbar--content"
-            >
+              className="navbar--content">
               About Me
             </Link>
           </li>
@@ -98,8 +94,7 @@ function Navbar() {
               offset={-70}
               duration={500}
               to="testimonial"
-              className="navbar--content"
-            >
+              className="navbar--content">
               Experience
             </Link>
           </li>

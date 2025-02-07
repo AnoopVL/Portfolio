@@ -11,16 +11,13 @@
 }
 
 .portfolio--section--card {
-  /* Your existing styles */
-
-  /* Add transition for smooth hover effect */
   transition: transform 0.3s ease-in-out;
-
-  /* Optional: Add other styles you want for the non-hover state */
+  position: relative; /* Ensure stacking context */
+  z-index: 1;
 }
 
 .portfolio--section--card:hover {
-  /* Add styles you want for the hover state */
-  transform: scale(1.05); /* You can adjust the scale factor as needed */
-  box-shadow: 0 4px 8px #5e3aef; /* Optional: Add box shadow or other styles */
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px #5e3aef;
+  z-index: 10; /* Bring the card above other elements */
 }
