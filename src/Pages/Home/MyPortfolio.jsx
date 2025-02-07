@@ -6,23 +6,21 @@ export default function MyPortfolio() {
     <section className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
-          <p className="sub--title">Recent Projects</p>
-          <h2 className="section--heading">My Portfolio</h2>
+          {/* <p className="sub--title">Recent Projects</p> */}
+          <h2 className="section--heading">Recent Projects</h2>
         </div>
         <div>
           <a
             href="https://github.com/AnoopVL"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn-github"
-          >
+            className="btn btn-github">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
               height="32"
               viewBox="0 0 33 33"
-              fill="none"
-            >
+              fill="none">
               <path
                 fill-rule="evenodd"
                 clip-rule="evenodd"
@@ -50,15 +48,13 @@ export default function MyPortfolio() {
                   href={item.githubLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-github"
-                >
+                  className="btn btn-github">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="32"
                     height="32"
                     viewBox="0 0 33 33"
-                    fill="none"
-                  >
+                    fill="none">
                     <path
                       fill-rule="evenodd"
                       clip-rule="evenodd"

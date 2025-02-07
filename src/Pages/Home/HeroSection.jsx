@@ -27,7 +27,7 @@ const TextChanger = () => {
 
 const handleDownloadResume = () => {
   // Replace 'your_resume.pdf' with the actual path to your PDF resume
-  const resumePath = "./img/ResumeAVL_241223.pdf";
+  const resumePath = "./img/anoop_lanjekar_8956739803.pdf";
 
   // Create a link element
   const link = document.createElement("a");

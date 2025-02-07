@@ -37,19 +37,27 @@
     },
     {
       "id": "2",
-      "src": "./img/propay1.png",
-      "title": "Pro-Pay",
-      "description": "Pro-Pay: Trade securely on blockchain testnet, seamless transactions, user-friendly interface for efficient crypto swaps.",
+      "src": "./img/Habit-tracker-ss.png",
+      "title": "Habit-Tracker",
+      "description": "Habit-Tracker allows you to track your habits, set their frequency, and view your stats such as streaks and percentage of work done.",
       "link": "View In Github",
-      "githubLink": "https://github.com/AnoopVL/Propay.git"
+      "githubLink": "https://github.com/AnoopVL/HabitTracker.git"
     },
     {
       "id": "3",
-      "src": "./img/yolo1.png",
-      "title": "Inventory Management",
-      "description": "React, MongoDB, Node.js, Express.js power seamless inventory management. User-friendly interface for efficient tracking and organization",
+      "src": "./img/BrainAssist-dash.png",
+      "title": "Brain Assist",
+      "description": "BrainAssist is a `Second-Brain` application designed to help users efficiently capture, organize, and retrieve information. Built with TypeScript and React, it provides a user-friendly interface for managing personal knowledge.",
       "link": "View In Github",
-      "githubLink": "https://github.com/AnoopVL/yolo.git"
+      "githubLink": "https://github.com/AnoopVL/BrainAssist.git"
+    },
+    {
+      "id": "4",
+      "src": "./img/userDashboard.png",
+      "title": "Ahen User-Side",
+      "description": "Ahen serves as a user-side interface for booking driving school sessions, akin to an Uber for driving schools. Users can easily find and book the nearest driving school sessions according to their preferences.",
+      "link": "View In Github",
+      "githubLink": "https://github.com/AnoopVL/AhenUser-Android.git"
     }
   ],
   "testimonial": [
@@ -60,7 +68,7 @@
       "description": "Java developer with expertise in building robust applications, leveraging strong problem-solving skills for efficient software solutions.",
       "compName": "Ahen Pvt.Ltd.",
       "designation": "Java developer",
-      "duration": "Jan 2024 - Present"
+      "duration": "Jan 2024 - April 2024"
     },
     {
       "id": "2",
@@ -69,7 +77,7 @@
       "description": "Worked as Blockchain lead at GDSC PESMCOE, guiding peers, teaching, and fostering collaboration for impactful tech events.",
       "compName": "GDSC PESMCOE",
       "designation": "Blockchain Lead",
-      "duration": "Aug 2023 - Present"
+      "duration": "Aug 2023 - May 2024"
     },
     {
       "id": "3",
